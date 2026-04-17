@@ -12,9 +12,8 @@ Run it with:
 go run .
 ```
 
-Run it with Docker:
+Run it with Docker Compose (one command):
 
 ```bash
-docker build -t ping-server .
-docker run -p 8080:8080 ping-server
+docker compose up --build
 ```
